@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web Activity">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Prince">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv = "site" content = "5" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form Act 2</title>
+    <style>
+        body{text-align: center;}
+    </style>
+</head>
+
+<body>
+<!-- Header -->
+<article id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <img src="Logo.png" alt="">
+            </div>
+
+<!-- Nav -->
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#Home" data-after="Home">Home</a></li>
+                    <li><a href="#Location" data-after="Menu">City</a></li>
+                    <li><a href="#Blog" data-after="About">Location</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- Main -->
+    <form action="post">
+    <article>
+    <h1>Book A Trip</h1>
+   </article>
+
+   <article id="book">
+    <label for="start"> Book A Date </label><input type="date" id="start" name="trip-start" value="2022" min="2022-10-20" max="2022-12-31">
+   </article>
+
+    <article id="people">
+    <label> Number Of People </label><input type="range" value="2" min="1" max="10"  oninput="this.nextElementSibling.value = this.value">
+    <output>2</output>
+   </article>
+
+    <article id="location">
+   <label> Location </label><input list="Location" name="Location">
+  <datalist id="Location">
+    <option value="Downtown">
+    <option value="Uptown">
+  </datalist>
+    </article>
+
+    <article>
+        <video src="video.mp4" controls muted width="300"></video>
+    </article>
+
+    <article>
+    <label for="rating"> Rating </label><input type="range" min="1" max="5" value="3" step="1" list="rate" id="rating">
+    <datalist id="rate">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+     </datalist>
+    </article>
+
+    <article id="box">
+        <input type="checkbox" id="agree" name="agree" value="policy"><label for="agree"> I agree to the cancellation pollicy. </label>
+    </article>
+
+    <article>
+    <button type="button">Book Table</button>
+    </article>
+    </form>
+
+<!-- Footer -->
+    <article id="footer">
+        <div class="footer container">
+            <p>Copyright © 2022 Prince Justine Y. David Made With ❤️😘</p>
+        </div>
+    </article>
+</body>
+</html>
