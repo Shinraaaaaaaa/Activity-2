@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header .nav-list ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px 3px;
+}
+
+p {
+    align-items: center;
+    align-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#footer .footer p {
+    font-size: 1rem;
+}
+
+h1 {
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#book {
+    padding-bottom: 20px;
+}
+
+#people {
+    padding-bottom: 20px;
+}
+
+#location {
+    padding-bottom: 20px;
+}
+
+#box {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#footer {
+    padding-top: 40px;
+}
